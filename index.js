@@ -20,6 +20,6 @@ const returnFirstTwoDrivers = function (drivers) {
   const fareTripler = createFareMultiplier(3);
 
   // const DifferentDrivers = function(drivers, selection) {
-    function selectDifferentDrivers(drivers, cb){
-        return cb(drivers);
+    function selectDifferentDrivers(drivers, selection){
+        return selection(drivers);
       }
