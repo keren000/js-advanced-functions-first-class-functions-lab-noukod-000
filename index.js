@@ -8,10 +8,10 @@ const returnFirstTwoDrivers = (drivers) => {
   };
 
   const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
-
+  
   const createFareMultiplier = (fare) => {
     return function (value) {
-      return x * value;
+      return fare * value;
     };
   };
 
